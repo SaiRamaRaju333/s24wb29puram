@@ -8,7 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 const gridRouter = require('./routes/grid');
 const randomitemRouter = require('./routes/randomitem');
-const searchResultsRouter = require('./routes/searchResults');
+const searchResultsRouter = require('./routes/searchresults');
 
 var app = express();
 
