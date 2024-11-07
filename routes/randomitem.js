@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 // List of image names (ensure these images exist in the public/images folder)
-const image_names = ['toy1.jpeg', 'toy2.jpeg', 'toy3.jpeg', 'toy4.jpeg', 'toy5.jpeg'];
+const image_names = ['image1.jpg', 'image2.jpg','image3.jpg','image4.jpg','image5.jpeg',];
 
 // Generate an array of random images
 router.get('/randomitem', (req, res) => {
@@ -15,4 +15,4 @@ router.get('/randomitem', (req, res) => {
     res.render('randomitem', { title: 'Random Item', randomImages: randomImages });
 });
 
-module.exports = router;
+module.exports = router;
